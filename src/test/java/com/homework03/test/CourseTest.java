@@ -1,5 +1,4 @@
 package com.homework03.test;
-
 import com.homework03.entity.Course;
 
 public class CourseTest {
