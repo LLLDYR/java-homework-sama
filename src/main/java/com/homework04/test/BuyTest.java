@@ -11,7 +11,6 @@ public class BuyTest {
         Product sausage=new Product("sausage",2.2);
         Product[] products = {instantNoodles,instantNoodles,sausage,sausage,sausage,sausage};
         Order order =new Order(user,products);
-        System.out.println(order.account());
+        System.out.println(order.balance());
     }
-
 }
